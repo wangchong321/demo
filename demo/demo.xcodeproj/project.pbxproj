@@ -383,6 +383,7 @@
 		70796BE8207FBC2600F22671 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 70796BE1207FBC2600F22671 /* YYKVStorage.m */; };
 		70796BE9207FBC2600F22671 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 70796BE3207FBC2600F22671 /* YYMemoryCache.m */; };
 		70796BF1207FC3A900F22671 /* LaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70796BF0207FC3A900F22671 /* LaunchView.m */; };
+		708CD0F6207FCF5200AE930C /* obturateur.svg in Resources */ = {isa = PBXBuildFile; fileRef = 708CD0F5207FCF5200AE930C /* obturateur.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -813,6 +814,7 @@
 		70796BE3207FBC2600F22671 /* YYMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
 		70796BEF207FC3A900F22671 /* LaunchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchView.h; sourceTree = "<group>"; };
 		70796BF0207FC3A900F22671 /* LaunchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchView.m; sourceTree = "<group>"; };
+		708CD0F5207FCF5200AE930C /* obturateur.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = obturateur.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -863,10 +865,10 @@
 		7079647E207F96E500F22671 /* demo */ = {
 			isa = PBXGroup;
 			children = (
-				70796BEA207FC30B00F22671 /* LaunchManager(预览) */,
-				707964CA207FA9D800F22671 /* Source */,
+				70796BEA207FC30B00F22671 /* LaunchView(预览) */,
 				707964C0207FA2F000F22671 /* Browse(浏览) */,
 				707964B7207FA29600F22671 /* AppDelegate */,
+				707964CA207FA9D800F22671 /* Source */,
 				70796485207F96E500F22671 /* Main.storyboard */,
 				70796488207F96E500F22671 /* Assets.xcassets */,
 				7079648A207F96E500F22671 /* LaunchScreen.storyboard */,
@@ -942,6 +944,7 @@
 		707964CA207FA9D800F22671 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				708CD0F5207FCF5200AE930C /* obturateur.svg */,
 				70796B8A207FB8FD00F22671 /* KSPhotoBrowser */,
 				707968ED207FB5DD00F22671 /* image */,
 			);
@@ -1416,14 +1419,14 @@
 			path = YYCache;
 			sourceTree = "<group>";
 		};
-		70796BEA207FC30B00F22671 /* LaunchManager(预览) */ = {
+		70796BEA207FC30B00F22671 /* LaunchView(预览) */ = {
 			isa = PBXGroup;
 			children = (
 				70796BEF207FC3A900F22671 /* LaunchView.h */,
 				70796BF0207FC3A900F22671 /* LaunchView.m */,
 			);
-			name = "LaunchManager(预览)";
-			path = "demo/LaunchManager(预览)";
+			name = "LaunchView(预览)";
+			path = "demo/LaunchView(预览)";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -1693,6 +1696,7 @@
 				70796B16207FB5DF00F22671 /* 296.jpg in Resources */,
 				70796A74207FB5DE00F22671 /* 15.jpg in Resources */,
 				70796B76207FB5DF00F22671 /* 81.jpg in Resources */,
+				708CD0F6207FCF5200AE930C /* obturateur.svg in Resources */,
 				70796A9F207FB5DE00F22671 /* 189.jpg in Resources */,
 				70796A9D207FB5DE00F22671 /* 187.jpg in Resources */,
 				70796B08207FB5DF00F22671 /* 283.jpg in Resources */,

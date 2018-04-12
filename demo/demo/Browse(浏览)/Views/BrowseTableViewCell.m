@@ -50,7 +50,7 @@
         rightImageView.clipsToBounds = YES;
         UITapGestureRecognizer *tapRight = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(imgVClick:)];
         [rightImageView addGestureRecognizer:tapRight];
-        rightImageView.tag = 2;
+
     }
     return self;
 }
@@ -58,7 +58,7 @@
 - (void)setDataList:(NSArray *)dataList{
     NSString *file1 = [[NSBundle mainBundle] pathForResource:dataList.firstObject ofType:@"jpg"];
     self.leftImageView.image = [UIImage imageWithContentsOfFile:file1];
-
+    
     NSString *file2 = [[NSBundle mainBundle] pathForResource:dataList.lastObject ofType:@"jpg"];
     self.rightImageView.image = [UIImage imageWithContentsOfFile:file2];
 }

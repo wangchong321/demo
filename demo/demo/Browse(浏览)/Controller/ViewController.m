@@ -20,8 +20,8 @@
     [self initView];
     [self setupData];
 }
-#pragma mark - private method
 
+#pragma mark - private method
 /**
  设置数据
  */
@@ -41,6 +41,9 @@
     }
 }
 
+/**
+ 设置UI
+ */
 - (void)initView{
     UITableView *mainTableView = [[UITableView alloc]initWithFrame:self.view.bounds];
     mainTableView.delegate = self;
@@ -66,6 +69,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.dataList.count / 2;
 }
+
 #pragma mark - 懒加载
 - (NSMutableArray *)dataList{
     if (!_dataList) {
@@ -74,6 +78,4 @@
     }
     return _dataList;
 }
-
-
 @end
