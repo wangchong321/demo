@@ -31,6 +31,7 @@
         CGFloat imageH = CELL_HEIGHT - MAGIN * 2;
         
         UIImageView *leftImageView = [[UIImageView alloc]init];
+        leftImageView.contentMode = UIViewContentModeScaleAspectFill;
         leftImageView.userInteractionEnabled = YES;
         leftImageView.frame = CGRectMake(MAGIN, MAGIN, imageW, imageH);
         self.leftImageView = leftImageView;
@@ -42,6 +43,7 @@
         leftImageView.tag = 1;
         
         UIImageView *rightImageView = [[UIImageView alloc]init];
+        rightImageView.contentMode = UIViewContentModeScaleAspectFill;
         rightImageView.userInteractionEnabled = YES;
         rightImageView.frame = CGRectMake(CGRectGetMaxX(leftImageView.frame) + MAGIN, MAGIN, imageW, imageH);
         self.rightImageView = rightImageView;
